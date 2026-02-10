@@ -18,7 +18,7 @@ export function DisplayBottomRow({
         flexShrink: 0,
       }}
     >
-      {/* Version text: left-aligned, bottom */}
+      {/* Left side: version text */}
       <span
         className="type-3"
         style={{

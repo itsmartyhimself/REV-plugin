@@ -16,7 +16,7 @@ export interface PluginContainerProps {
   defaultPreset?: string;
 }
 
-export function PluginContainer({ 
+export function PluginContainer({
   children,
   onKnobValueChange,
   onButtonClick,
@@ -65,7 +65,7 @@ export function PluginContainer({
       <KnobsSection onValueChange={onKnobValueChange} />
 
       {/* Buttons Section */}
-      <ButtonsSection 
+      <ButtonsSection
         onButtonClick={onButtonClick}
         toggleValue={toggleValue}
         onToggleValueChange={onToggleValueChange}

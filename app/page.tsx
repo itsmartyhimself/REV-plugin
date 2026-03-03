@@ -120,7 +120,7 @@ export default function Home() {
   ], [knobAngles]);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-[var(--space-6)] bg-[#ECEDEF]">
+    <main className="flex min-h-screen flex-col items-center justify-center p-[var(--space-6)]" style={{ background: "var(--gradient-main)" }}>
       <PluginContainer 
         onKnobValueChange={handleKnobValueChange}
         onButtonClick={handleButtonClick}

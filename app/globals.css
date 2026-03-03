@@ -92,6 +92,15 @@
     --radius-6: 24px;
     --radius-full: 9999px;
 
+    /* ─── Gradient tokens ─── */
+    --gradient-main: linear-gradient(
+      180deg,
+      #090A0E 0%,
+      #1C2135 15.34%,
+      #597A8D 60%,
+      #F4F5F0 95.01%
+    );
+
     /* ─── Font family ─── */
     --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 
